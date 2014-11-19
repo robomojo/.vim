@@ -1,18 +1,10 @@
 execute pathogen#infect()
 syntax on
 
-"autocmd VimEnter * NERDTree c:\development\marmoset_art\scripts\pynfs\
-"autocmd VimEnter * wincmd p
-
-"autocmd VimEnter * Explore c:\development\marmoset_art\scripts\pynfs\
-
 set incsearch
 set nowrap
 set number
 set backspace=indent,eol,start
-
-"python import sys
-"python execfile('c:\\development\\marmoset_art\\scripts\\pynfs\\maya\\startup_vim.py')
 
 if has('gui_running')
   set guioptions-=T  " no toolbar
@@ -37,11 +29,5 @@ set shiftwidth=4
 
 "nerdcommenter
 filetype plugin on
-
-"let g:multi_cursor_use_default_mapping=0
-"let g:multi_cursor_next_key='<C-n>'
-"let g:multi_cursor_prev_key='<C-p>'
-"let g:multi_cursor_skip_key='<C-x>'
-"let g:multi_cursor_quit_key='<Esc>'
 
 let g:jedi#use_tabs_not_buffers = 0
