@@ -25,3 +25,6 @@
 [submodule "bundle/grin.vim"]
 	path = bundle/grin.vim
 	url = http://github.com/santiycr/grin.vim
+[submodule "bundle/syntastic"]
+	path = bundle/syntastic
+	url = https://github.com/scrooloose/syntastic

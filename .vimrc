@@ -49,3 +49,5 @@ let g:jedi#use_tabs_not_buffers = 0
 " code folding
 set foldmethod=indent
 set foldlevel=99
+
+let g:syntastic_check_on_open=1
