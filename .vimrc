@@ -51,3 +51,5 @@ set foldmethod=indent
 set foldlevel=99
 
 let g:syntastic_check_on_open=1
+
+map <C-F7> :execute "! C:\\development\\marmoset\\scripts\\windows\\build_all.bat " . substitute(expand('%:p'),"a3d","dae","g")<CR>
